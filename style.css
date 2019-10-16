@@ -102,7 +102,8 @@ a:hover, a:active {
 }
 
 .site-branding span{
-    color: #34d15e;
+    color: #16702e;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 992px){
@@ -958,6 +959,11 @@ ul.tabs-nav .tab-nav.active {
     padding-right: 10px;
 }
 
+.cause-wrap figure .kkr-mt {
+    display: block;
+    width: 70%;
+    height: 70%;
+}
 .featured-cause .cause-content-wrap {
     width: calc(100% - 280px);
     margin-left: 20px;
@@ -968,6 +974,10 @@ ul.tabs-nav .tab-nav.active {
     font-weight: 600;
     color: #262626;
 } 
+
+.featured-cause .entry-content{
+    text-justify: inter-word;
+}
 
 
 /* # Home Causes
