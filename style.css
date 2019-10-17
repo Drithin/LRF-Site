@@ -283,8 +283,9 @@ a:hover, a:active {
     width: 100%;
     height: 100%;
     margin: 0;
-    object-fit: cover;
+    object-fit: fill;
 }
+
 
 .hero-content-overlay h1 {
     margin: 0;
@@ -811,10 +812,20 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .welcome-content .entry-content {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
-    color: #b7b7b7;
+    
 }
+
+.welcome-content .entry-content p, li{
+   color: black;
+    
+}
+
+.welcome-content .entry-content-index p, li{
+    color: white;
+     
+ }
 
 .home-page-welcome img {
     display: block;
@@ -1286,6 +1297,10 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .causes-page .page-header {
     background: url(assets/mt-bg.jpeg) no-repeat center;
+}
+
+.awards-page .page-header{
+    background: url(assets/awards-bg.jpeg) no-repeat center;
 }
 
 .causes-page .featured-cause {
