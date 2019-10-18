@@ -822,8 +822,8 @@ ul.tabs-nav .tab-nav.active {
     
 }
 
-.welcome-content .entry-content-index p, li{
-    color: white;
+.welcome-content .entry-content-index p{
+    color: rgb(255, 255, 255);
      
  }
 
@@ -2086,6 +2086,7 @@ ul.tabs-nav .tab-nav.active {
     display: flex;
     align-items: baseline;
     margin-bottom: 15px;
+    color: white;
 }
 
 .foot-contact ul li .fa {
