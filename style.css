@@ -297,7 +297,8 @@ a:hover, a:active {
    
     font-size: 60px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 120%;
+   
 }
 
 .hero-content-overlay h4 {
